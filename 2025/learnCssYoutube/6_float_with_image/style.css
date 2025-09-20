@@ -1,0 +1,70 @@
+body {
+	background-color: rgb(28, 61, 58);
+
+	/* marsolidgin for body is by default like 2px 
+	to remove it, set to 0 */
+}
+
+h1 {
+	color: rgb(255, 255, 255);
+	font-family: "Russo One", "Arial Narrow Bold", sans-serif;
+	border-bottom: dotted;
+	border-width: 5px;
+	border-color: rgb(255, 255, 255);
+	padding-bottom: 10px;
+	margin: 20px;
+}
+
+p {
+	color: rgb(78, 173, 165);
+	/* for font family, people tend to use 32 - 3 fonts. Just incase the first not available */
+	font-family: "Just Me Again Down Here", "consolas", sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.pborder {
+	border: dotted;
+	border-width: 5px;
+	border-color: rgb(78, 173, 165);
+	padding: 20px;
+
+	border-radius: 15px;
+}
+
+#box1 {
+	border: 5px;
+	height: fit-content;
+	padding: 10px;
+	background-color: #1ed674;
+	color: #06331b;
+}
+
+.bodyContent {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+#box2 {
+	margin: 5px;
+	border: 5px dotted;
+	width: 250px;
+	height: 250px;
+	padding: 10px;
+	background-color: #e758cd;
+	color: #80033b;
+}
+
+.box {
+	width: 100px;
+	height: 100px;
+	border: 1px solid;
+	font-size: 20px;
+	text-align: center;
+	background: tomato;
+	float: left;
+}
+
+#main-title {
+	width: fit-content;
+}

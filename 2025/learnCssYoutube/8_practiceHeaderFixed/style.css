@@ -1,0 +1,46 @@
+body {
+	margin: 0;
+}
+
+.navbar {
+	margin-top: 0%;
+	width: 100%;
+	height: 50px;
+	background-color: rgb(34, 10, 10);
+	position: sticky;
+	color: aliceblue;
+	position: fixed;
+	z-index: 1;
+}
+
+.background-image {
+	width: 100%;
+	height: 200px;
+	margin-top: auto;
+	/* background-color: bisque; */
+	background: url(./Bg-Frame.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	/* to resize image when window is changed */
+	background-size: cover;
+}
+
+.sticky-menu {
+	height: 50px;
+	background-color: #1eba3d;
+	position: relative;
+	top: 175px;
+}
+
+.container {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.content {
+	margin-top: 40px;
+	margin-left: 5%;
+	margin-right: 5%;
+	height: 5000px;
+	background-color: #1e76ba;
+}
